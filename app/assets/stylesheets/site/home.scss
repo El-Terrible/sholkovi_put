@@ -8,7 +8,10 @@ body{
   font-family: 'sans-serif';
   }
 
-
+.clear
+{
+  clear: both;
+}
 #wper-1
 {
   width: 100%;
@@ -168,23 +171,6 @@ body{
     @include bg-center('goods_1.jpg')
   }
 
-  .product_price
-  {
-    color: #61cafe;
-    text-align: right;
-    font-weight: bold;
-    margin-top: 16px;
-  }
-  .product_adress
-  {
-    margin-top: 10px;
-    font-size: 13px;
-    span
-    {
-      font-weight: bold;
-
-    }
-  }
 
 
 }
@@ -209,6 +195,24 @@ body{
     text-decoration: none;
   }
 }
+.product_price
+{
+  color: #61cafe;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.product_adress
+{
+  margin-top: 10px;
+  font-size: 13px;
+  span
+  {
+    font-weight: bold;
+
+  }
+}
+
 
 .headling
 {
@@ -216,6 +220,7 @@ body{
   color: $mine-color;
   margin-top: 40px;
   margin-bottom: 10px;
+  margin-left: 7px;
 }
 
 .best_products

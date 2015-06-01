@@ -1,0 +1,117 @@
+@import "mixins";
+.katalog_link
+{
+  height: 22px;
+
+  a{
+    float: left;
+    line-height: 22px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 10px;
+    color: #333;
+
+    &:after
+    {
+      content: '/';
+      margin-left: 10px;
+    }
+
+  }
+  #katalog_link_to_main
+  {
+    width: 22px;
+    height: 22px;
+    @include bg-center('to_mine.png');
+    &:after
+    {
+      content: '';
+    }
+  }
+}
+
+.sortirovka
+{
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-color: $mine-color;
+  margin-top: 25px;
+  padding-left: 18px;
+
+  span
+  {
+    color:#fff;
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 40px;
+  }
+
+  .sortirovka_active
+  {
+    font-weight: bold;
+    background-image: asset_url('');
+  }
+}
+
+.product
+{
+  height: 370px;
+  border: solid 1px #7f8c94;
+  margin-top: 20px;
+  padding: 20px 15px;
+  h2{
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .product_photo
+  {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+    border: solid 1px #e1e1e1;
+    background-size: contain;
+    @include bg-center('goods_1.jpg')
+  }
+
+  .star
+  {
+    width: 18px;
+    height: 18px;
+    @include bg-center('star.png');
+    margin-top: -10px;
+    float: left;
+  }
+  .reting
+  {
+    margin-left: 15px;
+  }
+
+  .product_price
+  {
+    color: $mine-color;
+  }
+
+  a{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 6px;
+    display: block;
+    font-size: 14px;
+    color:$mine-color;
+
+  }
+
+  &:hover
+  {
+    border: solid 1px $mine-color;
+    a{
+      font-weight: bold;
+    }
+  }
+  cursor: pointer;
+}
