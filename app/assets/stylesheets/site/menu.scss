@@ -1,0 +1,28 @@
+.main_menu
+{
+  background-color: #61cafe;
+
+  h2{
+    margin-top: 0;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #4155a8;
+
+  }
+  a{
+    display: block;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    border-top: solid 1px #fff;
+    padding-left: 30px;
+    text-decoration: none;
+    &:hover
+    {
+      color: #4155a8;
+    }
+  }
+}

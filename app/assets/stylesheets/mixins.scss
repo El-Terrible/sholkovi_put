@@ -1,0 +1,9 @@
+$mine-color: #560394;
+
+@mixin bg-center($img)
+{
+  background-image: asset_url($img);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
