@@ -115,3 +115,137 @@
   }
   cursor: pointer;
 }
+
+.prev_next_page
+{
+  height: 20px;
+  margin: 15px 0 35px 7px;
+  .prev, .next{
+    height: 20px;
+    width: 15px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+  }
+  .prev
+  {
+    @include bg-center('prev_pointer.png');
+  }
+  .next
+  {
+    @include bg-center('prev_pointer.png');
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+  }
+
+  .page_number
+  {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: top;
+    border: solid 1px #e3e3e3;
+    color: #999;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+
+  .active_page
+  {
+    color: $mine-color;
+    border: solid 1px $mine-color;
+  }
+}
+
+.block_filther
+{
+  height: 360px;
+  border: solid 2px #61cafe;
+  margin-top: 20px;
+  padding: 18px;
+  text-align: center;
+  .price_text
+  {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  #minCost, #maxCost
+  {
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    border:solid 1px #7b8185;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding-left: 5px;
+  }
+
+  #filter_city
+  {
+    margin-top: 35px;
+  }
+
+  #select_city
+  {
+    width: 196px;
+    height: 30px;
+    background-color: #fff;
+    border: solid 1px #7b8185;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+  }
+
+  .in_stock, .only_with_photo
+  {
+    height: 18px;
+    margin-top: 28px;
+    text-align: left;
+    input
+    {
+      height: 18px;
+      width: 18px;
+    }
+    span
+    {
+      vertical-align: top;
+      color: #333;
+    }
+  }
+
+  .only_with_photo
+  {
+    margin-top: 20px;
+  }
+
+  button
+  {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: solid 1px #61cafe;
+    color: #fff;
+    background-color: #61cafe;
+  }
+
+  #filter_restart
+  {
+    background-color: #fff;
+    color: #61cafe;
+    margin-top: 22px;
+  }
+}

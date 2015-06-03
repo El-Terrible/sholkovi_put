@@ -1,6 +1,31 @@
 <section class="katalog_page">
   <div class="col-md-3 col-sm-3">
     <%= render 'layouts/menu' %>
+
+    <div class="block_filther">
+      <div class="price_text">Цена, руб.</div>
+      <input type="text" id="minCost" value="0"/>
+      —
+      <input type="text" id="maxCost" value="1000"/>
+
+      <div class="price_text" id="filter_city">Место склада (город)</div>
+
+      <select id="select_city">
+        <option>Кемерово (Россия)</option>
+        <option>Душанбе (Таджикистан)</option>
+        <option>Исфара (Россия)</option>
+      </select>
+
+      <div class="in_stock">
+        <input type="checkbox" checked> <span>Есть в наличии</span>
+      </div>
+      <div class="only_with_photo">
+        <input type="checkbox" checked> <span>Есть в наличии</span>
+      </div>
+
+      <button id="filter_show">Показать</button>
+      <button id="filter_restart">Сбросить</button>
+    </div>
   </div>
 
   <div class="col-md-9 col-sm-9">
@@ -117,9 +142,17 @@
         <a href="">Подробнее</a>
       </div>
     </div>
+    <div class="clear"></div>
 
+    <div class="prev_next_page">
+      <div class="prev"></div>
+      <div class="page_number">1</div>
+      <div class="page_number active_page">2</div>
+      <div class="page_number">3</div>
+      <div class="next"></div>
+    </div>
   </div>
 
 <div class="clear"></div>
-  prev 1-2-3 next
+
 </section>

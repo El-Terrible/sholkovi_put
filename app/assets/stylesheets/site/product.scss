@@ -1,0 +1,7 @@
+@import "mixins";
+
+.product_slider
+{
+  height: 312px;
+  @include bg-center('product_slider.png')
+}
