@@ -78,18 +78,7 @@
     @include bg-center('goods_1.jpg')
   }
 
-  .star
-  {
-    width: 18px;
-    height: 18px;
-    @include bg-center('star.png');
-    margin-top: -10px;
-    float: left;
-  }
-  .reting
-  {
-    margin-left: 15px;
-  }
+
 
   .product_price
   {
@@ -248,4 +237,13 @@
     color: #61cafe;
     margin-top: 22px;
   }
+}
+
+.star
+{
+  width: 18px;
+  height: 18px;
+  @include bg-center('star.png');
+  margin-top: -10px;
+  float: left;
 }
