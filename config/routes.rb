@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  get 'registration/sign_in'
+
   get 'home/katalogs'
   get 'home/product'
   get 'home/about'
+  get 'registratino/sign_in'
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
