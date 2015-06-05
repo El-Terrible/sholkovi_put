@@ -1,0 +1,50 @@
+@import "mixins";
+.about
+{
+  padding-bottom: 40px;
+  .question
+  {
+    button
+    {
+      color: #fff;
+      background-color: #61cafe;
+      border: solid 1px #61cafe;
+      &:hover{color: #61cafe;}
+    }
+  }
+
+  .headling
+  {
+    color: #333;
+    font-size: 30px;
+  }
+  img
+  {
+    margin-bottom: 30px;
+  }
+  p{
+    color: #5555;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+.why_we
+{
+  margin-top: 40px;
+  h2
+  {
+    font-size: 22px;
+    color: #333;
+  }
+
+  li{
+    color: $mine-color;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+    span{
+      color: #333;
+    }
+  }
+}

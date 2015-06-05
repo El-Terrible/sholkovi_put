@@ -1,3 +1,4 @@
+@import "mixins";
 .main_menu
 {
   background-color: #61cafe;
@@ -9,7 +10,7 @@
     font-size: 18px;
     font-weight: bold;
     padding-left: 20px;
-    color: #4155a8;
+    color: #fff;
 
   }
   a{
@@ -22,7 +23,7 @@
     text-decoration: none;
     &:hover
     {
-      color: #4155a8;
+      color:$mine-color ;
     }
   }
 }

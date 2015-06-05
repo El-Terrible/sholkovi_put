@@ -160,6 +160,11 @@
   margin-top: 20px;
   padding: 18px;
   text-align: center;
+
+  button, input
+  {
+    outline: none;
+  }
   .price_text
   {
     font-size: 16px;
