@@ -11,6 +11,8 @@
  * file per style scope.
  *
  *= require use_bootstrap
+ *= require slick
+ *= require slick-theme
  *= require_tree ./site
  *= require_self
  */

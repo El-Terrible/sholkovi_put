@@ -21,9 +21,37 @@
     border-top: solid 1px #fff;
     padding-left: 30px;
     text-decoration: none;
+    cursor: pointer;
     &:hover
     {
       color:$mine-color ;
     }
   }
+
+  .frut, .sfrut, .vegetables
+  {
+    height:150px;
+    background-color:#61cafe;
+    display: none;
+
+    li{
+      margin-left: 30px;
+      list-style: none;
+
+      a{
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        line-height: 30px;
+        height: 30px;
+        &:hover
+        {
+          color: $mine-color;
+        }
+      }
+
+    }
+  }
+
 }
