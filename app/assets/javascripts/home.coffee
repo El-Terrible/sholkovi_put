@@ -28,3 +28,12 @@ $ ->
       $('.vegetables').animate
         height: "hide"
       , 500
+
+
+
+hide_header= ->
+  $('.header_btns').addClass 'hide'
+
+
+if location.pathname == '/registration/sign_in'
+  $(document).ready(hide_header)
