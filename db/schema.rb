@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150611182357) do
+ActiveRecord::Schema.define(version: 20150612104745) do
 
   create_table "mevas", force: :cascade do |t|
     t.string   "name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20150611182357) do
     t.integer  "sprod_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.float    "reting"
   end
 
   create_table "prods", force: :cascade do |t|
