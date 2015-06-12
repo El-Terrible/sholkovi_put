@@ -167,7 +167,9 @@ body{
     margin: 0 auto;
     border: solid 1px #e1e1e1;
     background-size: contain;
-    @include bg-center('goods_1.jpg')
+    @include bg-center('goods_1.jpg');
+    background-size: cover;
+
   }
 
 

@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150611172957) do
+ActiveRecord::Schema.define(version: 20150611182357) do
+
+  create_table "mevas", force: :cascade do |t|
+    t.string   "name"
+    t.string   "price"
+    t.string   "decript_photo"
+    t.integer  "sprod_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
 
   create_table "prods", force: :cascade do |t|
     t.string   "name"

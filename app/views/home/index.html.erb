@@ -45,12 +45,12 @@
     <div class="col-md-3 col-sm-3">
 
         <div class="best_product">
-          <h3>Яблоки Голден</h3>
-          <div class="product_photo">
+          <h3><%= @best_product.name %></h3>
+          <div class="product_photo" style="background-image: url('<%= @best_product.decript_photo %>')">
 
           </div>
 
-          <div class="product_price">100 руб./кг</div>
+          <div class="product_price"><%= @best_product.price %></div>
           <div class="product_adress">Место склада: <span>Кемерово</span></div>
         </div>
         <div class="more_broduct"><a href="">Больше товаров</a></div>

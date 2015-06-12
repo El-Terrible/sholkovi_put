@@ -44,4 +44,5 @@ end
 gem 'bootstrap-sass'
 gem 'rails_admin'
 gem 'devise'
+gem 'carrierwave'
 
