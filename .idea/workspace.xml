@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a87e1bb8-b989-4601-b83a-dd56545af3a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/meva/decript_photo/3/IMG_0955.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150612104745_add_reting_to_meva.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/meva/decript_photo/2/IMG_0946.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/meva/decript_photo/3/IMG_0955.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shelkovi_put.iws" />
@@ -19,7 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/shelkovi_put@db_seed__shelkovi_put.coverage" NAME="db:seed: shelkovi_put Coverage Results" MODIFIED="1433871835206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
     <SUITE FILE_PATH="coverage/shelkovi_put@routes__shelkovi_put.coverage" NAME="routes: shelkovi_put Coverage Results" MODIFIED="1433950130742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
-    <SUITE FILE_PATH="coverage/shelkovi_put@Development__shelkovi_put.coverage" NAME="Development: shelkovi_put Coverage Results" MODIFIED="1434106220601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
+    <SUITE FILE_PATH="coverage/shelkovi_put@Development__shelkovi_put.coverage" NAME="Development: shelkovi_put Coverage Results" MODIFIED="1434110938019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
     <SUITE FILE_PATH="coverage/shelkovi_put@db_rollback__shelkovi_put.coverage" NAME="db:rollback: shelkovi_put Coverage Results" MODIFIED="1433950765332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
     <SUITE FILE_PATH="coverage/shelkovi_put@db_migrate__shelkovi_put.coverage" NAME="db:migrate: shelkovi_put Coverage Results" MODIFIED="1434106167149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shelkovi_put" />
   </component>
@@ -38,60 +39,25 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1650">
-              <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
+            <state vertical-scroll-proportion="-12.0" vertical-offset="447" max-vertical-offset="855">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <marker date="1434048572362" expanded="true" signature="26:3233" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="46:1460" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="82:376" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="147:365" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="187:312" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="412:1451" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="449:1440" placeholder="..." />
-                <marker date="1434048572362" expanded="false" signature="485:529" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="530:938" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="570:646" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="690:923" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="706:906" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="974:1018" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1019:1427" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1059:1135" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1179:1412" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1195:1395" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1539:3221" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1576:2029" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1612:1947" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1703:1762" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="1763:1781" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2065:2423" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2101:2341" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2172:2190" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2459:2817" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2495:2735" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2566:2584" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2853:3211" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2889:3129" placeholder="..." />
-                <marker date="1434048572362" expanded="true" signature="2960:2978" placeholder="..." />
+                <element signature="tag#div#0;tag#div#2;tag#section#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#!!top" expanded="true" />
+                <marker date="1434106942408" expanded="true" signature="530:938" placeholder="..." />
+                <marker date="1434106942408" expanded="true" signature="570:646" placeholder="..." />
+                <marker date="1434106942408" expanded="true" signature="1019:1427" placeholder="..." />
+                <marker date="1434106942408" expanded="true" signature="1059:1135" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20150612104745_add_reting_to_meva.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150612104745_add_reting_to_meva.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19379845" vertical-offset="0" max-vertical-offset="387">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.07751938" vertical-offset="0" max-vertical-offset="387">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -155,10 +121,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/meva.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/descript_photo_product_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/site/home.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20150612104745_add_reting_to_meva.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       </list>
     </option>
   </component>
@@ -229,6 +195,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shelkovi_put" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sholkovi_put" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shelkovi_put" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sholkovi_put" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,7 +660,11 @@
       <created>1434105891384</created>
       <updated>1434105891384</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add reting colum to model meva">
+      <created>1434106493687</created>
+      <updated>1434106493687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -710,7 +712,8 @@
     <MESSAGE value="added mkdel category and subcategory" />
     <MESSAGE value="добавленно категории меню" />
     <MESSAGE value="Meva model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meva model" />
+    <MESSAGE value="add reting colum to model meva" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reting colum to model meva" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1062,58 +1065,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150612104745_add_reting_to_meva.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845" vertical-offset="0" max-vertical-offset="387">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1650">
-          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
+        <state vertical-scroll-proportion="-12.0" vertical-offset="447" max-vertical-offset="855">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <marker date="1434048572362" expanded="true" signature="26:3233" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="46:1460" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="82:376" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="147:365" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="187:312" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="412:1451" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="449:1440" placeholder="..." />
-            <marker date="1434048572362" expanded="false" signature="485:529" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="530:938" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="570:646" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="690:923" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="706:906" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="974:1018" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1019:1427" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1059:1135" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1179:1412" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1195:1395" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1539:3221" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1576:2029" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1612:1947" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1703:1762" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="1763:1781" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2065:2423" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2101:2341" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2172:2190" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2459:2817" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2495:2735" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2566:2584" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2853:3211" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2889:3129" placeholder="..." />
-            <marker date="1434048572362" expanded="true" signature="2960:2978" placeholder="..." />
+            <element signature="tag#div#0;tag#div#2;tag#section#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#!!top" expanded="true" />
+            <marker date="1434106942408" expanded="true" signature="530:938" placeholder="..." />
+            <marker date="1434106942408" expanded="true" signature="570:646" placeholder="..." />
+            <marker date="1434106942408" expanded="true" signature="1019:1427" placeholder="..." />
+            <marker date="1434106942408" expanded="true" signature="1059:1135" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150612104745_add_reting_to_meva.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19379845" vertical-offset="0" max-vertical-offset="387">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.07751938" vertical-offset="0" max-vertical-offset="387">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
           <folding />
         </state>
       </provider>
