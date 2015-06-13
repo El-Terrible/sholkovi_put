@@ -35,12 +35,20 @@ RailsAdmin.config do |config|
 
   config.model 'Meva' do
     list do
-      fields :name, :price, :city, :sprod, :reting, :decript_photo
+      fields :name, :price, :city, :sprod, :decript_photo
+    end
+
+    edit do
+      fields :name, :price, :city, :sprod, :reting, :unit, :decript_photo
     end
   end
 
   config.model 'City' do
     list do
+      fields :name, :country
+    end
+
+    edit do
       fields :name, :country
     end
   end
@@ -49,18 +57,27 @@ RailsAdmin.config do |config|
     list do
       fields :name
     end
+
+    edit do
+      fields :name
+    end
   end
 
   config.model 'Prod' do
-    list do
-      fields :name
-    end
+    visible false
   end
 
   config.model 'Sprod' do
     list do
       fields :name, :prod
-
     end
+
+    edit do
+      fields :name, :prod
+    end
+  end
+
+  config.model 'Unit' do
+    visible false
   end
 end

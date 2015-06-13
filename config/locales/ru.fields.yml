@@ -6,6 +6,8 @@ ru:
       prod: Категории
       sprod: Подкатегории
       country: Страна
+      user: Пользоывтели
+      unit: Еденица измерения
 
     attributes:
       meva:
@@ -15,6 +17,7 @@ ru:
         sprod: Подкатегория
         reting: Рейтинг товара
         city: Город
+        unit: Еденица измерения
 
       city:
         name: Город
