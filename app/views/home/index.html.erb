@@ -47,6 +47,7 @@
 
             <div class="best_product">
               <h3><%= product.name %></h3>
+              <%= link_to product.name, home_product_path(product) %>
               <div class="product_photo" style="background-image: url('<%= product.decript_photo %>')">
 
               </div>
