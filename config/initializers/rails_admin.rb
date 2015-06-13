@@ -15,6 +15,7 @@ RailsAdmin.config do |config|
   # config.audit_with :paper_trail, 'User', 'PaperTrail::Version' # PaperTrail >= 3.0.0
 
   ### More at https://github.com/sferik/rails_admin/wiki/Base-configuration
+  config.main_app_name = ['Шолковый путь,', 'административная панель']
 
   config.actions do
     dashboard                     # mandatory
@@ -30,5 +31,36 @@ RailsAdmin.config do |config|
     ## With an audit adapter, you can add:
     # history_index
     # history_show
+  end
+
+  config.model 'Meva' do
+    list do
+      fields :name, :price, :city, :sprod, :reting, :decript_photo
+    end
+  end
+
+  config.model 'City' do
+    list do
+      fields :name, :country
+    end
+  end
+
+  config.model 'Country' do
+    list do
+      fields :name
+    end
+  end
+
+  config.model 'Prod' do
+    list do
+      fields :name
+    end
+  end
+
+  config.model 'Sprod' do
+    list do
+      fields :name, :prod
+
+    end
   end
 end

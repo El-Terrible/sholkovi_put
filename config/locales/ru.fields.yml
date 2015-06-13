@@ -1,0 +1,32 @@
+ru:
+  activerecord:
+    models:
+      meva: Продукты
+      city: Город
+      prod: Категории
+      sprod: Подкатегории
+      country: Страна
+
+    attributes:
+      meva:
+        name: Название
+        price: Цена
+        decript_photo: Фотография
+        sprod: Подкатегория
+        reting: Рейтинг товара
+        city: Город
+
+      city:
+        name: Город
+        country: Страна
+
+      country:
+        name: Страна
+
+
+      prod:
+        name: Категория
+
+      sprod:
+        name: подкатегория
+        prod: Категория
