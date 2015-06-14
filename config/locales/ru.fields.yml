@@ -8,6 +8,7 @@ ru:
       country: Страна
       user: Пользоывтели
       unit: Еденица измерения
+      slider: Слайдер
 
     attributes:
       meva:
@@ -33,3 +34,8 @@ ru:
       sprod:
         name: подкатегория
         prod: Категория
+
+      slider:
+        title: Загаловок
+        description: Описание
+        photo: Фотография

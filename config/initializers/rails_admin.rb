@@ -80,4 +80,14 @@ RailsAdmin.config do |config|
   config.model 'Unit' do
     visible false
   end
+
+  config.model 'Slider' do
+    list do
+      fields :title, :description, :photo
+    end
+
+    edit do
+      fields :title, :description, :photo
+    end
+  end
 end
