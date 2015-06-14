@@ -34,6 +34,12 @@ $ ->
 hide_header= ->
   $('.header_btns').addClass 'hide'
 
+hide_header_footer= ->
+  $('.header').addClass 'hide'
+  $('.footer').addClass 'hide'
 
 if location.pathname == '/registration/sign_in'
   $(document).ready(hide_header)
+
+if location.pathname == '/users/sign_in'
+  $(document).ready(hide_header_footer)
