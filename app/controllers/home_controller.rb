@@ -1,13 +1,14 @@
 class HomeController < ApplicationController
   def index
     @best_product = Meva.order(reting: :desc).limit(4)
+    @slide = Slider.all
   end
 
   def katalogs
+    @product = Meva.all
   end
 
   def product
-    @category = Meva.find(params[:id])
 
   end
 end

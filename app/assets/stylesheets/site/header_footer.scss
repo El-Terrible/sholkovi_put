@@ -14,6 +14,11 @@
   font-weight: bold;
   color: $mine-color;
   margin-top: 30px;
+  display: block;
+  &:hover
+  {
+    text-decoration: none;
+  }
 }
 
 .logo_description
@@ -72,6 +77,11 @@
   }
 }
 
+.about_us
+{
+  text-align: center;
+  padding-top: 8px;
+}
 
 .footer
 {

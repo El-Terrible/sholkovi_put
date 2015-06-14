@@ -1,4 +1,4 @@
-<section class="katalog_page">
+<section class="katalog_page" xmlns="http://www.w3.org/1999/html">
   <div class="col-md-3 col-sm-3">
     <%= render 'layouts/menu' %>
 
@@ -40,108 +40,26 @@
         <span class="sortirovka_active"> Цене</span>
         <span> Дате</span>
     </div>
+
+    <% @product.each do |prod| %>
     <div class="col-md-4 col-sm-4">
       <div class="product">
 
-        <h2>Яблоки Голден</h2>
+        <h2><%= prod.name %></h2>
         <div class="reting">
           <div class="star"></div>
           <div class="star"></div>
           <div class="star"></div>
           <div class="star"></div>
         </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
+        <div class="product_photo" style="background-image: url(<%= prod.decript_photo %>)"></div>
+        <div class="product_price"><%= prod.price %></div>
+        <div class="product_adress">Место склада: <span><%= prod.city.name %></span></div>
+        <%= link_to 'Подробнее', home_product_url %>
       </div>
     </div>
-    <div class="col-md-4 col-sm-4">
-      <div class="product">
+    <% end %>
 
-        <h2>Яблоки Голден</h2>
-        <div class="reting">
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-        </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <div class="product">
-
-        <h2>Яблоки Голден</h2>
-        <div class="reting">
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-        </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <div class="product">
-
-        <h2>Яблоки Голден</h2>
-        <div class="reting">
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-        </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <div class="product">
-
-        <h2>Яблоки Голден</h2>
-        <div class="reting">
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-        </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <div class="product">
-
-        <h2>Яблоки Голден</h2>
-        <div class="reting">
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-          <div class="star"></div>
-        </div>
-        <div class="product_photo"></div>
-        <div class="product_price">100 руб./кг</div>
-        <div class="product_adress">Место склада: <span>Кемерово</span></div>
-
-        <a href="">Подробнее</a>
-      </div>
-    </div>
     <div class="clear"></div>
 
     <div class="prev_next_page">

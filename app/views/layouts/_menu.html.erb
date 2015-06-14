@@ -5,7 +5,9 @@
     <div class="frut">
       <ul>
         <% @frut_subcategory.each do |subcategory| %>
-            <li><a href=""><%= subcategory.name %></a></li>
+            <li>
+              <%= link_to subcategory.name, home_katalogs_url %>
+            </li>
         <% end %>
       </ul>
     </div>
@@ -13,7 +15,9 @@
     <div class="sfrut">
       <ul>
         <% @sfrut_subcategory.each do |subcategory| %>
-             <li><a href=""><%= subcategory.name %></a></li>
+             <li>
+               <%= link_to subcategory.name, home_katalogs_url %>
+             </li>
         <% end %>
       </ul>
     </div>
@@ -21,7 +25,9 @@
     <div class="vegetables">
       <ul>
         <% @ovoshi_subcategory.each do |subcategory| %>
-            <li><a href=""><%= subcategory.name %></a></li>
+            <li>
+              <%= link_to subcategory.name, home_katalogs_url %>
+            </li>
         <% end %>
       </ul>
     </div>

@@ -15,26 +15,18 @@
     </div>
     <div class="col-md-9 col-sm-9">
       <div class="slider_container">
-        <div class="slide" style="background-image: url('assets/slider_1.jpg')">
+
+      <% @slide.each do |slide| %>
+        <div class="slide" style="background-image: url(<%= slide.photo %>)">
           <div class="slider_headling">
-            <h2>УДИВИТЕЛЬНЫЙ ВКУС, НАСТОЯЩЕЕ КАЧЕСТВО</h2>
+            <h2><%= slide.title %></h2>
           </div>
           <div class="slider_desctription">
-            <p>Через 12 месяцев мы запускаем выпуск продукции под собственной торговой маркой.
-              Наши технологи отобрали двадцать уникальных рецептов на основе натуральных
-              ингредиентов.</p>
+            <p><%= slide.description %></p>
           </div>
         </div>
-        <div class="slide" style="background-image: url('assets/slider_2.jpg')">
-          <div class="slider_headling">
-            <h2>УДИВИТЕЛЬНЫЙ ВКУС, НАСТОЯЩЕЕ КАЧЕСТВО</h2>
-          </div>
-          <div class="slider_desctription">
-            <p>Через 12 месяцев мы запускаем выпуск продукции под собственной торговой маркой.
-              Наши технологи отобрали двадцать уникальных рецептов на основе натуральных
-              ингредиентов.</p>
-          </div>
-        </div>
+      <% end %>
+
       </div>
     </div>
   </div>
@@ -46,8 +38,7 @@
         <div class="col-md-3 col-sm-3">
 
             <div class="best_product">
-              <h3><%= product.name %></h3>
-              <%= link_to product.name, home_product_path(product) %>
+              <h3> <%= link_to product.name, home_product_path(product) %></h3>
               <div class="product_photo" style="background-image: url('<%= product.decript_photo %>')">
 
               </div>
@@ -55,7 +46,7 @@
               <div class="product_price"><%= product.price %></div>
               <div class="product_adress">Место склада: <span><%= product.city.name %></span></div>
             </div>
-            <div class="more_broduct"><a href="">Больше товаров</a></div>
+            <div class="more_broduct"><%= link_to 'Больше товаров', home_katalogs_url %></div>
 
         </div>
     <% end %>
