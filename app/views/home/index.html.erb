@@ -34,17 +34,17 @@
   <div class="headling">ЛУЧШИЕ ТОВАРЫ</div>
   <div class="row best_products">
 
-    <% @best_product.each do |product| %>
+    <% @best_product.each do |tovar| %>
         <div class="col-md-3 col-sm-3">
 
             <div class="best_product">
-              <h3> <%= link_to product.name, home_product_path(product) %></h3>
-              <div class="product_photo" style="background-image: url('<%= product.decript_photo %>')">
+              <h3> <%= link_to tovar.name, home_product_path(tovar)%></h3>
+              <div class="product_photo" style="background-image: url('<%= tovar.decript_photo %>')">
 
               </div>
 
-              <div class="product_price"><%= product.price %></div>
-              <div class="product_adress">Место склада: <span><%= product.city.name %></span></div>
+              <div class="product_price"><%= tovar.price %><%= tovar.unit.name %></div>
+              <div class="product_adress">Место склада: <span><%= tovar.city.name %></span></div>
             </div>
             <div class="more_broduct"><%= link_to 'Больше товаров', home_katalogs_url %></div>
 

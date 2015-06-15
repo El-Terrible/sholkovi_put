@@ -5,13 +5,11 @@ Rails.application.routes.draw do
 
   get 'home/katalogs'
   get 'home/product'
+  #get 'home/product/:id', to: 'home#product'
   get 'home/about'
   get 'registratino/sign_in'
   root 'home#index'
 
-  namespace :news, controller: '/home' do
-    get ':id', action: :prduct, as: :prduct
-  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

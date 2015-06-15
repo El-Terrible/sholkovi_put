@@ -9,6 +9,6 @@ class HomeController < ApplicationController
   end
 
   def product
-
+ #   @prod = Meva.find(params[:id])
   end
 end
